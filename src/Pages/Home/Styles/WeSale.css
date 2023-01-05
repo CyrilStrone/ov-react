@@ -1,0 +1,65 @@
+.WeSale__Title {
+  font-family: "Tilda Sans", Arial, sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 42px;
+  line-height: 1.23;
+  margin-bottom: 100px;
+}
+.WeSale {
+  padding-top: 135px;
+}
+.WeSale__Block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.WeSale__Block__Picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.WeSale__Block__Picture img {
+  width: 560px;
+  height: 250px;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: all ease-in-out .25s;
+
+}
+.WeSale__Block__Picture .WeSale__Block__Picture__Block {
+  margin-right: 40px;
+}
+.WeSale__Block__Picture .WeSale__Block__Picture__Block:last-child {
+  margin-right: 0px;
+}
+.WeSale__Block__Picture {
+  margin-top: 40px;
+}
+.WeSale__Block__Picture:first-child {
+  margin-top: 0px;
+}
+.WeSale__Block__Picture__Block {
+  background-color: #000000;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.WeSale__Block__Picture__Block__Name {
+  position: absolute;
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.23;
+  font-family: "TildaSans", Arial, sans-serif;
+  font-weight: 600;
+}
+.WeSale__Block__Picture img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  
+}
