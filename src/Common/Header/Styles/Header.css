@@ -18,6 +18,9 @@
 .Header__Right-Block{
     margin-right: 40px;
 }
+.Header__Left-Block{
+    text-decoration: none;
+}
 .Header__Right-Block a{
     font-family: 'Tilda Sans',Arial,sans-serif;
     font-size: 18px;

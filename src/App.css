@@ -3,4 +3,12 @@
   width: 100%;
   height: 100%;
 }
-
+.App_Actual{
+  width: 100%;
+  height: 100%;
+}
+a, b, blockquote, center, code, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
