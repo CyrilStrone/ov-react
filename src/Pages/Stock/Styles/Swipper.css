@@ -70,5 +70,10 @@
     text-decoration: none;
 }
 @media screen and (orientation: portrait){
-
+    .swiper-slide img{
+        width: 850px;
+        height: 550px;
+        max-width: 100vw;
+        user-select: none;
+    }
 }

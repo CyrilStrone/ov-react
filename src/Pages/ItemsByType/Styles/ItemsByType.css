@@ -31,4 +31,7 @@
     position: static;
     background-color: black;
   }
+  .ItemsByType__Items {
+    grid-template-columns: 1fr ;
+  }
 }

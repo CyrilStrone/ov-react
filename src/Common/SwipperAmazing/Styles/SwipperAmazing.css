@@ -46,5 +46,10 @@ html:has(.SwipperAmazingList) .App {
     padding: 14px;
 }
 @media screen and (orientation: portrait){
-
+    .SwipperAmazingList  .swiper-slide img {
+        height: 100%;
+        max-width: 100vw;
+        -webkit-user-select: none;
+        user-select: none;
+    }
 }
