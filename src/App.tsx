@@ -16,6 +16,7 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
+  //  "homepage": "https://cyrilstrone.github.io/OV/",
   return (
     <div className="App">
       <Header />
