@@ -11,19 +11,35 @@ import Picture_6 from "../../../Common/Pictures/Swiper/6.jpg";
 import Picture_7 from "../../../Common/Pictures/Swiper/7.jpg";
 import Picture_8 from "../../../Common/Pictures/Swiper/8.jpg";
 import Picture_9 from "../../../Common/Pictures/Swiper/9.jpg";
+import { useEffect, useState } from "react";
 
 export const SwiperBlock = () => {
+  const [windowor, setwindowor] = useState(4);
+  const [windowsp, setwindowsp] = useState(10);
+
+  useEffect(() => {
+    console.log("asd");
+    if (window.innerHeight > window.innerWidth) {
+      setwindowor(1);
+      setwindowsp(100)
+    } else {
+      setwindowor(4);
+      setwindowsp(10)
+
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  });
   return (
     <div className="SwiperBlock">
       <Swiper
-       slidesPerView={4}
-       spaceBetween={10}
-       freeMode={true}
-       pagination={{
-         clickable: true,
-       }}
-       modules={[ Pagination]}
-       className="mySwiper"
+        slidesPerView={windowor}
+        spaceBetween={100}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
       >
         <SwiperSlide>
           <img src={Picture_0} />

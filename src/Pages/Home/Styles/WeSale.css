@@ -96,3 +96,8 @@
   height: 60px;
   margin-bottom: 105px;
 }
+@media  screen and (orientation: portrait){
+  .WeSale__Block__Picture{
+    max-width: 100vw;
+  }
+}

@@ -27,3 +27,14 @@
     height: 100%;
     object-fit: cover;
 }
+@media  screen and (orientation: portrait){
+  .BigPicture{
+    height: 50vh;
+  }
+  .BigPicture__RightBlock{
+    height: 50vh;
+  }
+  .BigPicture__LeftBlock{
+    height: 50vh;
+  }
+}

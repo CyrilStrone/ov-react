@@ -25,3 +25,12 @@
   background-size: cover;
   background-position: center;
 }
+@media screen and (orientation: portrait){
+  .Footer__Mail{
+    font-size: 36px;
+  }
+  .App:has(.Stock) .Header {
+    position: static;
+    background-color: black;
+  }
+}

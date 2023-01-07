@@ -53,3 +53,8 @@
     height: 50px;
     width: 155px;
 }
+@media screen and (orientation: portrait){
+  .Help__Top__Title{
+    text-align: start;
+  }
+}

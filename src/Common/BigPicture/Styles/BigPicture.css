@@ -40,3 +40,9 @@
   margin-top: 24px;
   font-weight: 300;
 }
+@media screen and (orientation: portrait){
+  .BigPicture__General__Title {
+    font-size: 70px !important;
+   
+}
+}

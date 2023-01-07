@@ -50,3 +50,20 @@
     height: auto;
     max-height: 100%;
 }
+@media screen and (orientation: portrait) {
+  .Snow__Picture__Star {
+    width: 256px !important;
+    height: 256px !important;
+  }
+  .Snow__Picture__Star img {
+    width: 256px !important;
+    height: 256px !important;
+  }
+  .swiper-slide {
+    /* width: 100% !important;
+    display: block !important; */
+  }
+  .swiper-wrapper .swiper-slide:first-child{
+    display: none;
+  }
+}

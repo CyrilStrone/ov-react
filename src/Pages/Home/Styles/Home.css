@@ -15,3 +15,6 @@
 .Home__Line__Star img:first-child {
   margin-left: 20%;
 }
+@media only screen and (orientation: portrait){
+  
+}

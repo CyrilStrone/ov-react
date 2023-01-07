@@ -42,3 +42,8 @@
   box-sizing: border-box;
   padding: 8px;
 }
+@media screen and (orientation: portrait){
+  .Footer__Mail{
+    font-size: 36px;
+  }
+}

@@ -40,3 +40,15 @@
     object-fit: cover;
     width: 100%;
 }
+@media  screen and (orientation: portrait){
+  .AboutProduct{
+    flex-direction: column;
+  }
+  .AboutProduct__RightBlock{
+    max-width: 100vw;
+    display: none;
+  }
+  .AboutProduct__LeftBlock{
+    margin-right: 0;
+  }
+}

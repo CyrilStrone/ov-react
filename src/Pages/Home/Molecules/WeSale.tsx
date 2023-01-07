@@ -41,7 +41,7 @@ export const WeSale = () => {
         </div>
       </div>
       <Link to={"Stock"}>
-      <button className="WeSale__Button">Товар в наличии</button>
+      <button className="WeSale__Button">Товары в наличии</button>
       </Link>
     </div>
   );

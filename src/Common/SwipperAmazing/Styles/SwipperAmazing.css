@@ -45,3 +45,6 @@ html:has(.SwipperAmazingList) .App {
 .SwipperAmazingList__Info{
     padding: 14px;
 }
+@media screen and (orientation: portrait){
+
+}

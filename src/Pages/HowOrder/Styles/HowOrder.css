@@ -135,3 +135,23 @@
     margin-right: 20px;
     max-width: 160px
 }
+@media screen and (orientation: portrait){
+  .App:has(.HowOrder) .Header {
+    position: static;
+    background-color: black;
+  }
+  .HowOrder__info__Top {
+    flex-direction: column;
+  }
+  .HowOrder__info__Top_OneBlock{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .HowOrder__info__Bottom{
+    flex-direction: column;
+  }
+  .HowOrder__info__Bottom__OneBlock{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

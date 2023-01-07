@@ -91,3 +91,12 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (orientation: portrait){
+  .Basket__Form{
+    max-width: 100vw;
+}
+.App:has(.Basket) .Header {
+  position: static;
+  background-color: black;
+}
+}
