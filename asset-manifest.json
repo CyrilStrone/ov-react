@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OV/static/css/main.23dcfea2.css",
+    "main.css": "/OV/static/css/main.c7dd6070.css",
     "main.js": "/OV/static/js/main.be69808a.js",
     "static/js/787.7fb2fd13.chunk.js": "/OV/static/js/787.7fb2fd13.chunk.js",
     "static/media/3.jpg": "/OV/static/media/3.57c382b3520bb8372794.jpg",
@@ -54,12 +54,12 @@
     "static/media/TildaSans-Black.woff2": "/OV/static/media/TildaSans-Black.39580b1b3da119a6d649.woff2",
     "static/media/HeaderLogo.png": "/OV/static/media/HeaderLogo.f2c76d572c82e0077d8a.png",
     "index.html": "/OV/index.html",
-    "main.23dcfea2.css.map": "/OV/static/css/main.23dcfea2.css.map",
+    "main.c7dd6070.css.map": "/OV/static/css/main.c7dd6070.css.map",
     "main.be69808a.js.map": "/OV/static/js/main.be69808a.js.map",
     "787.7fb2fd13.chunk.js.map": "/OV/static/js/787.7fb2fd13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23dcfea2.css",
+    "static/css/main.c7dd6070.css",
     "static/js/main.be69808a.js"
   ]
 }
