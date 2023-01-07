@@ -5,9 +5,9 @@ export const Header = () => {
   return (
     <div className="Header">
       <div className="Header__Left-Block">
-        <a href="/">
+        <Link to={"/"}>
           <img src={HeaderLogo} alt="Logo" />
-        </a>
+        </Link>
       </div>
       <div className="Header__Right-Block">
         <Link to={"HowOrder"}>Как заказать</Link>
