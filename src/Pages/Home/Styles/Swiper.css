@@ -6,6 +6,7 @@
 }
 .SwiperBlock {
   position: relative;
+  overflow: hidden;
 }
 .swiper-wrapper {
   display: inline-flex;
@@ -34,7 +35,6 @@
   width: fit-content;
   object-fit: cover;
   height: 544px;
-  border: 1rem solid white ;
 }
 
 .swiper-slide {

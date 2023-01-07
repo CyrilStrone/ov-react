@@ -1,0 +1,42 @@
+.BigPicture__General {
+  width: 100vw;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.82) 100%);
+  position: relative;
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear:both;
+}
+.BigPicture__General__Title {
+  font-size: 104px;
+  color: #fff;
+  font-family: "Tilda Sans", Arial, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  display: inline-block;
+}
+.BigPicture__General__Little {
+  font-size: 24px;
+  margin-top: 24px;
+    line-height: 1.5;
+  color: #fff;
+  font-family: "Tilda Sans", Arial, sans-serif;
+  font-weight: 300;
+  
+}
+.BigPicture__General__TitleWithLittle{
+  position: absolute;
+  display: inline-block;
+  font-family: "Tilda Sans", Arial, sans-serif;
+  letter-spacing: .5px;
+  color: #fff;
+}
+.BigPicture__General__TitleWithLittle__Title{
+  font-weight: 600;
+}
+
+.BigPicture__General__TitleWithLittle__Little{
+  margin-top: 24px;
+  font-weight: 300;
+}

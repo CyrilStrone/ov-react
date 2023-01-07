@@ -16,3 +16,14 @@ body {
   height: 100vh;
 }
 
+html{
+  position: relative;
+
+  /* overflow-x: hidden; */
+}
+
+body
+{
+  position: relative;
+  overflow-x: hidden;
+}

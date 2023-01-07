@@ -1,0 +1,71 @@
+.Stock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Stock__SwipperList{
+    padding-top: 90px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 90px;
+
+}
+.Stock__SwipperList__Swipper{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    padding-bottom: 44px;
+}
+.swiper-pagination{
+    position: static !important;
+    padding-top: 16px !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: #222 !important;
+}
+.swiper-button-prev{
+    color: #222 !important;
+}
+.swiper-button-next{
+    color: #222 !important;
+}
+.swiper-slide img{
+    width: 850px;
+    height: 550px;
+    user-select: none;
+}
+.Stock__SwipperList__Info{
+    padding: 14px 0;
+}
+.Stock__SwipperList__Info__Name{
+    font-size: 40px;font-family: 'Tilda Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+.Stock__SwipperList__Info__Price{
+    font-size: 30px;margin-top: 5px;
+    color: #777;line-height: 1.55;font-family: 'Tilda Sans',Arial,sans-serif;
+    font-weight: 300;
+}
+.Stock__SwipperList__Swipper a{
+    color: #000000;
+    border: 3px solid #000000;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+    text-align: center;
+    line-height: 60px;
+    /* border: 0 none; */
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    -webkit-appearance: none;
+    font-weight: 700;
+    background: none;
+    cursor: pointer;
+    box-sizing: content-box;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.ItemsByType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ItemsByType .react-parallax {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.App:has(.ItemsByType) .Header {
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px;
+}
+.ItemsByType__Items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: stretch;
+  justify-items: stretch;
+  padding-top: 45px;
+  padding-bottom: 90px;
+}

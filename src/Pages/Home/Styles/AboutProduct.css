@@ -1,0 +1,42 @@
+.AboutProduct {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.AboutProduct__LeftBlock{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+.AboutProduct__LeftBlock__Title{
+    margin-bottom: 48px;
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+
+}
+.AboutProduct__LeftBlock__Text{
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: start;
+}
+.AboutProduct__RightBlock{
+    max-width: 560px;
+    max-height: 924px;
+}
+.AboutProduct__RightBlock img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}

@@ -1,5 +1,6 @@
 import "../Styles/Header.css";
 import HeaderLogo from "../../Pictures/Header/HeaderLogo.png";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <div className="Header">
@@ -9,8 +10,8 @@ export const Header = () => {
         </a>
       </div>
       <div className="Header__Right-Block">
-        <a href="/">Как заказать</a>
-        <a href="/">Корзина</a>
+        <Link to={"HowOrder"}>Как заказать</Link>
+        <Link to={"Basket"}>Корзина</Link>
       </div>
     </div>
   );

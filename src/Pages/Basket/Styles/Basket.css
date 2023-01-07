@@ -1,0 +1,93 @@
+.Basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Basket .react-parallax {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.App:has(.Basket) .Header {
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px;
+}
+.Basket__Form{
+    padding-top: 105px;
+    padding-bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 560px;
+    align-items: stretch;
+    width: 100%;
+}
+.Basket__Form__Input{
+    margin-bottom: 25px;
+}
+.Basket__Form__Input input{
+    color: #000000;
+    border: 1px solid #000000;
+    outline: 0;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    border-top: 0!important;
+    border-right: 0!important;
+    border-left: 0!important;
+    background-color: transparent!important;
+    border-radius: 0!important;
+    margin: 0;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+}
+.Basket__Form__Input__Title{
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    display: flex;
+}
+.Basket__Form__Input__Line{
+
+}
+.Basket__Form__Button__Block{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Basket__Form__Button__Block__Item{
+    color: #ffffff;
+    background-color: #ff6600;
+    -webkit-border-radius: 30px;
+    text-align: center;
+    height: 60px;
+    border: 0;
+    font-size: 16px;
+    display: flex;
+    -webkit-appearance: none;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    max-width: 200px;
+    width: 100%;
+    font-family: 'Tilda Sans',Arial,sans-serif;
+    align-items: center;
+    justify-content: center;
+}
