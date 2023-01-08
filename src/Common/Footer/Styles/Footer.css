@@ -7,15 +7,22 @@
   align-items: center;
 }
 .Footer__Mail {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 48px;
   line-height: 1.23;
   font-family: "Tilda Sans", Arial, sans-serif;
   color: #ffffff;
   font-weight: 600;
 }
+.Footer__Autor{
+  font-size: 24px;
+  line-height: 1.23;
+  font-family: "Tilda Sans", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+}
 .Footer__Adress {
-  margin-top: 45px;
+  margin-top: 25px;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 1.55;
@@ -27,23 +34,37 @@
   color: #ff8562;
   text-decoration: none;
 }
-.Footer__Vk {
+.Footer__GitHub{
+  margin-top: 25px;
+}
+.Footer__GitHub a{
+  
+  font-size: 22px;
+  line-height: 1.55;
+  font-family: "TildaSans", Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #ff8562;
+}
+.Footer__CN a {
   margin-top: 20px;
   width: 48px;
   height: 48px;
-  background-color: #4680c2;
   border-radius: 100%;
   text-decoration: none;
   display: block;
 }
-.Footer__Vk img {
+.Footer__CN img {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   padding: 8px;
 }
-@media screen and (orientation: portrait){
-  .Footer__Mail{
+.Footer__CN {
+  display: flex;
+}
+@media screen and (orientation: portrait) {
+  .Footer__Mail {
     font-size: 36px;
   }
 }
