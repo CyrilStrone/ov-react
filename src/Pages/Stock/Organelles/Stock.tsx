@@ -2,7 +2,7 @@ import { SwipperList } from "../Molecules/SwipperList";
 import BIG from "../../../Common/Pictures/Stock/BIG.jpg";
 
 import "../Styles/Stock.css";
-import { BigPicture } from "../../../Common/BigPicture/Organoids/BigPicture";
+import { BigPicture } from "../../../Common/BigPicture/Organelles/BigPicture";
 export const Stock = () => {
   return (
     <div className="Stock">

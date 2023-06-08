@@ -1,4 +1,4 @@
-import { BigPicture } from "../../../Common/BigPicture/Organoids/BigPicture";
+import { BigPicture } from "../../../Common/BigPicture/Organelles/BigPicture";
 import "../Styles/HowOrder.css";
 import Picture from "../../../Common/Pictures/HowOrder/HowOrder.jpg";
 export const HowOrder = () => {

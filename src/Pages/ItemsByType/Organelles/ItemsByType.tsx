@@ -3,7 +3,7 @@ import Shirts from "../../../Common/Pictures/ItemsByType/Shirt.jpg";
 import Hoodie from "../../../Common/Pictures/ItemsByType/Hoodie.jpg";
 import Scarves from "../../../Common/Pictures/ItemsByType/Scarves.jpg";
 import Jersey from "../../../Common/Pictures/ItemsByType/Jersey.jpg";
-import { BigPicture } from "../../../Common/BigPicture/Organoids/BigPicture";
+import { BigPicture } from "../../../Common/BigPicture/Organelles/BigPicture";
 import { useEffect, useState } from "react";
 import { Items } from "../Molecules/items";
 

@@ -16,7 +16,7 @@ import {
   setcheckStock,
 } from "../Logics/hooks";
 import { Link } from "react-router-dom";
-import { SwipperAmazingList } from "../../../Common/SwipperAmazing/Organoids/SwipperAmazing";
+import { SwipperAmazingList } from "../../../Common/SwipperAmazing/Organelles/SwipperAmazing";
 
 export const SwipperList = () => {
   const checkStock = useStore($checkStock);

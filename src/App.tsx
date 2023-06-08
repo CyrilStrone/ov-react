@@ -1,13 +1,13 @@
 import './App.css';
 import './index.css';
-import { Header } from './Common/Header/Organoids/Header';
-import { Footer } from './Common/Footer/Organoids/Footer';
+import { Header } from './Common/Header/Organelles/Header';
+import { Footer } from './Common/Footer/Organelles/Footer';
 import { Route, Routes, useLocation } from "react-router-dom";
-import { Home } from './Pages/Home/Organoids/Home';
-import { ItemsByType } from './Pages/ItemsByType/Organoids/ItemsByType';
-import { Stock } from './Pages/Stock/Organoids/Stock';
-import { HowOrder } from './Pages/HowOrder/Organoids/HowOrder';
-import { Basket } from './Pages/Basket/Organoids/Basket';
+import { Home } from './Pages/Home/Organelles/Home';
+import { ItemsByType } from './Pages/ItemsByType/Organelles/ItemsByType';
+import { Stock } from './Pages/Stock/Organelles/Stock';
+import { HowOrder } from './Pages/HowOrder/Organelles/HowOrder';
+import { Basket } from './Pages/Basket/Organelles/Basket';
 import ScrollToTop from 'react-scroll-to-top';
 import { useEffect } from 'react';
 
@@ -16,7 +16,6 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
-  //  "homepage": "https://cyrilstrone.github.io/OV/",
   return (
     <div className="App">
       <Header />

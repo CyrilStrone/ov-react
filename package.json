@@ -1,5 +1,6 @@
 {
   "name": "ov",
+  "homepage": "https://cyrilstrone.github.io/ov-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +18,7 @@
     "react-dom": "^18.2.0",
     "react-hook-screen-orientation": "^1.0.4",
     "react-parallax": "^3.5.1",
-    "react-router-dom": "^6.0.2",
+    "react-router-dom": "^6.12.0",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
     "swiper": "^8.4.5",

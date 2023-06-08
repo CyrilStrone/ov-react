@@ -1,4 +1,4 @@
-import { BigPicture } from "../../../Common/BigPicture/Organoids/BigPicture";
+import { BigPicture } from "../../../Common/BigPicture/Organelles/BigPicture";
 import "../Styles/Basket.css";
 import Picture from "../../../Common/Pictures/Basket/Basket.jpg";
 
