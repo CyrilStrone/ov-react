@@ -1,4 +1,4 @@
-### Статус - завершен
+### Status - production
 ### `npm i`
 
 ### `npm start`
